@@ -7,7 +7,184 @@
 html {
   font-size: 62.5%;
 }
+.container{
+  width: 80%;
+  max-width: 942px;
+  margin: 0 auto 180px;
+}
+header{
+  background-image: url(../images/trees1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  nav{
+    display: flex;
+    align-items: center;
+    padding: 14px 0px;
+    margin-bottom: 180px;
+    ul{
+      display: flex;
+      text-decoration: none;
+      margin-left: auto;
+      margin-right: 0;
+      li a{
+        padding: 0 0 0 26px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: 900;
+      }
+      a:hover,a.actiçve{
+        color:$blue;
+      }
+    }
+  }
+  section{
+    text-align: center;
+   display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+      h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        font-weight: 900;
+        color: $white;
+        margin-bottom: 62px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+      }
+      h1::after {
+        content: '';
+        position: absolute;
+        left: calc(50% - 25px);
+        top: 46px;
+        width: 50px;
+        height:3px;
+        border-bottom: 1px solid $blue;
+      }
+      p{
+        line-height: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: $softWhite;
+        margin: 0 auto 50px;
+        max-width: 600px;
+      }
+      a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:$blue;
+        text-decoration:none;
+        padding: 15px 17px;
+        border: solid $blue 2px;
+        margin: 0 auto;
+        text-transform: uppercase;
+      }
+      
+  }
+}
+main{
+  section{
+    text-align: center;
+   display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+   // background-color: red;
+      h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        font-weight: 900;
+        color: $grey;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-transform: uppercase;
+      }
+      h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: $lightGrey;
+        margin-top: 20px;
+        margin-bottom: 62px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      h2::after {
+        content: '';
+        position: absolute;
+        left: calc(50% - 25px);
+        top: 46px;
+        width: 50px;
+        height:3px;
+        border-bottom: 1px solid $lightGrey;
+      }
+      article{
+        display: flex;
+        flex-direction: row;
+        max-width: 800px;
+        align-items: center;
+      }
+      p{
+        line-height: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: $lightGrey;
+        margin: 0 auto 50px;
+        max-width: 600px;
+        text-align: left;
+        
+      }
+      a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:$blue;
+        text-decoration:none;
+        padding: 15px 17px;
+        border: solid $blue 2px;
+        margin: 0 auto;
+        text-transform: uppercase;
+      }
+      
+  }
+  .video{
+    background-image: url(../images/skyline.jpg);
+    background-size: cover;
+  background-position: center;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+img{
 
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px ;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top:34px;
+  }
+  }
+}
+
+/*
 $oranje: orange;
 body {
   margin: 10px;
@@ -17,3 +194,4 @@ h1 {
   font-size: 30px;
   margin: 50px 0;
 }
+*/
